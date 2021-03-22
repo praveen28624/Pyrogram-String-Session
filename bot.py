@@ -22,9 +22,8 @@ print("""\nRunning script...""")
 time.sleep(1)
 print(tutor)
 
-app_id=2940667
-api_hash="8590c88aca3638eb321979577ddb53d3"
-phone_number="+94772693488"
+app_id=int(input("app id -"))
+api_hash=input("api hash -")
 
 app = Client("my_account",app_id,api_hash,phone_number=phone_number)
 
