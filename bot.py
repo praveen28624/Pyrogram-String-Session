@@ -25,7 +25,7 @@ print(tutor)
 app_id=int(input("app id -"))
 api_hash=input("api hash -")
 
-app = Client("my_account",app_id,api_hash,phone_number=phone_number)
+app = Client("my_account",app_id,api_hash)
 
 
 with app:
